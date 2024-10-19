@@ -51,7 +51,6 @@ jobs:
 
     # Build application
   BUILD_AND_PUBLISH:
-    needs: Testing
     runs-on: ubuntu_latest
     steps:
       - name: Code chekout
