@@ -1,0 +1,8 @@
+name: KofiApp Actions
+on: workflow_dispatch
+jobs:
+  Testing:
+    runs-on: ubuntu-latest
+    steps:
+    - name: testing the workflow
+      run: echo "The workflow works well"
