@@ -51,7 +51,7 @@ jobs:
 
     # Build application
   BUILD_AND_PUBLISH:
-    runs-on: ubuntu_latest
+    runs-on: ubuntu-latest
     steps:
       - name: Code chekout
         uses: actions/checkout@v4
